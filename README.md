@@ -64,8 +64,8 @@
 需要 macOS 12 (Monterey) 或更高版本。安装包已通过 Apple 公证，打开即可使用。  
 *Requires macOS 12 or later. Notarized by Apple.*
 
-- 🍏 **[Apple 芯片版 / Apple Silicon (M1–M4)](https://github.com/dbcat-app/dbcat/releases/latest/download/DbCat-arm64.dmg)**
-- 💻 **[Intel 版 / Intel](https://github.com/dbcat-app/dbcat/releases/latest/download/DbCat-x86_64.dmg)**
+- 🍏 **[Apple 芯片版 / Apple Silicon (M1–M4)](https://dbcat.forzens.com/download?arch=arm64&lang=zh)**
+- 💻 **[Intel 版 / Intel](https://dbcat.forzens.com/download?arch=x86_64&lang=zh)**
 - 历史版本与更新说明 / Previous versions and release notes：[Releases](https://github.com/dbcat-app/dbcat/releases)
 
 > **自动更新 / Updates**：应用内置自动更新，有新版本时提示一键升级，并按你的 Mac 下载对应芯片的安装包。  
