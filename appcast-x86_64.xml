@@ -4,6 +4,15 @@
     <title>DbCat</title>
     <!-- ITEMS -->
     <item>
+      <title>DbCat 0.6.0 (Intel)</title>
+      <pubDate>Tue, 20 Oct 2026 07:28:02 +0000</pubDate>
+      <sparkle:version>688</sparkle:version>
+      <sparkle:shortVersionString>0.6.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+      <link>https://github.com/dbcat-app/dbcat/releases/tag/v0.6.0</link>
+      <enclosure url="https://dbcat-dl.forzens.com/DbCat-0.6.0-x86_64.dmg" type="application/octet-stream" sparkle:edSignature="5yFyXsxxferREMsI2tUNpRrJkDGhxNtGRyvLd8V9db/qA9vDvdCl2ppv1GvUI2JrYSMoSAKZ2LyO9mrjPmm2CQ==" length="50073462"/>
+    </item>
+    <item>
       <title>DbCat 0.5.0 (Intel)</title>
       <pubDate>Mon, 19 Oct 2026 03:08:48 +0000</pubDate>
       <sparkle:version>609</sparkle:version>
