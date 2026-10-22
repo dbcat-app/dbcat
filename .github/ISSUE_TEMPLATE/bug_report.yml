@@ -78,7 +78,7 @@ body:
         If DbCat crashed or froze, attach the **full** crash report, not just the summary.
         - macOS: `~/Library/Logs/DiagnosticReports/DbCat-*.ips` (or open Console → Crash Reports)
         - Windows: `%LOCALAPPDATA%\CrashDumps`
-        Drag the file into this box, or paste its full content. Remove private data first (see the last checkbox).
+        Drag the file into this box, or paste its full content. Check it for private data first (see the last checkbox).
 
   - type: input
     id: dbcat-version
@@ -116,13 +116,16 @@ body:
     id: logs
     attributes:
       label: Relevant log lines
-      description: Paste only the lines around the problem. Replace hostnames, IP addresses, user names and anything else private.
+      description: |
+        Paste only the lines around the problem. The log never contains passwords, SQL or query results,
+        but it can contain connection names, host addresses, database names and database user names — replace those if they are private.
       render: text
 
   - type: checkboxes
     id: private-data
     attributes:
       label: Privacy
+      description: Screenshots are the most likely place for passwords or real data to show up — please crop or blur them.
       options:
-        - label: I removed passwords, hostnames and other private data from anything I attached
+        - label: I checked anything I attached (logs, screenshots, crash reports) for hostnames, IP addresses, user names and database names
           required: true
