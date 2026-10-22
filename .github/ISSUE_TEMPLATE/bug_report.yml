@@ -1,0 +1,128 @@
+name: Bug report
+description: Report a problem with DbCat
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting this. DbCat is maintained by one person, so a complete report saves a lot of back-and-forth.
+        Please fill in every required field. A report with only a crash summary usually can't be reproduced.
+        The version, system, architecture and log path fields are filled in automatically when you use **Help → Report an Issue**.
+
+  - type: textarea
+    id: description
+    attributes:
+      label: What happened
+      description: What you did, what you expected, and what happened instead. Include any error message exactly as shown.
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Numbered steps, starting from launching DbCat.
+      placeholder: |
+        1. Open the connection "..."
+        2. Run the query "..."
+        3. ...
+    validations:
+      required: true
+
+  - type: dropdown
+    id: database
+    attributes:
+      label: Database
+      description: The database you were connected to when the problem happened.
+      options:
+        - MySQL
+        - MariaDB
+        - TiDB
+        - PostgreSQL
+        - CockroachDB
+        - SQLite
+        - DuckDB
+        - ClickHouse
+        - SQL Server
+        - Redis
+        - Valkey
+        - MongoDB
+        - Other / not database-specific
+    validations:
+      required: true
+
+  - type: input
+    id: database-version
+    attributes:
+      label: Database version
+      description: Output of `SELECT VERSION()` (or the server's version command). Leave empty if not database-specific.
+      placeholder: "e.g. 8.0.36, PostgreSQL 16.3, Redis 7.2"
+
+  - type: checkboxes
+    id: connection
+    attributes:
+      label: Connection details
+      description: Tick everything that applies to the connection where the problem happened.
+      options:
+        - label: SSH tunnel
+        - label: TLS/SSL
+        - label: Password saved in Keychain / Credential Manager
+        - label: "Other auth (Kerberos / Windows authentication / Entra ID / client certificate)"
+
+  - type: textarea
+    id: crash-report
+    attributes:
+      label: Crash report
+      description: |
+        If DbCat crashed or froze, attach the **full** crash report, not just the summary.
+        - macOS: `~/Library/Logs/DiagnosticReports/DbCat-*.ips` (or open Console → Crash Reports)
+        - Windows: `%LOCALAPPDATA%\CrashDumps`
+        Drag the file into this box, or paste its full content. Remove private data first (see the last checkbox).
+
+  - type: input
+    id: dbcat-version
+    attributes:
+      label: DbCat version
+      description: Help → Report an Issue fills this in. If you are filing manually, type the version from About DbCat.
+    validations:
+      required: true
+
+  - type: input
+    id: os
+    attributes:
+      label: Operating system
+      description: Help → Report an Issue fills this in. Include the version, e.g. "Windows 11 23H2 (build 22631.4317)".
+    validations:
+      required: true
+
+  - type: input
+    id: arch
+    attributes:
+      label: CPU architecture
+      description: Help → Report an Issue fills this in. For example "aarch64" (Apple Silicon or ARM Windows) or "x86_64".
+    validations:
+      required: true
+
+  - type: input
+    id: log-path
+    attributes:
+      label: Log file path
+      description: Help → Report an Issue fills this in. Attach the log file only if it is relevant, after reviewing it.
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant log lines
+      description: Paste only the lines around the problem. Replace hostnames, IP addresses, user names and anything else private.
+      render: text
+
+  - type: checkboxes
+    id: private-data
+    attributes:
+      label: Privacy
+      options:
+        - label: I removed passwords, hostnames and other private data from anything I attached
+          required: true
