@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+  <channel>
+    <title>DbCat (Windows)</title>
+    <!-- ITEMS -->
+    <item>
+      <title>DbCat 0.7.2 (Windows x64)</title>
+      <pubDate>Fri, 23 Oct 2026 08:14:40 +0000</pubDate>
+      <sparkle:version>0.7.2</sparkle:version>
+      <sparkle:shortVersionString>0.7.2</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>10.0</sparkle:minimumSystemVersion>
+      <link>https://github.com/dbcat-app/dbcat/releases/tag/v0.7.2</link>
+      <enclosure url="https://dbcat-dl.forzens.com/DbCat-0.7.2-x64-setup.exe" sparkle:os="windows-x64" sparkle:installerArguments="/SILENT /SP- /RELAUNCH=1" type="application/octet-stream" sparkle:edSignature="xS5hm0zlm+KCSIh6v+5ba0xa5JN8dbEQV0FtNCx4KnlD1NS0pd4nVeKUbHvpSlhl6XWu72UQfXsQBF3obukqCw==" length="26050133"/>
+    </item>
+  </channel>
+</rss>
