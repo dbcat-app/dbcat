@@ -4,13 +4,22 @@
     <title>DbCat</title>
     <!-- ITEMS -->
     <item>
+      <title>DbCat 0.8.0 (Intel)</title>
+      <pubDate>Sun, 25 Oct 2026 12:11:10 +0000</pubDate>
+      <sparkle:version>1030</sparkle:version>
+      <sparkle:shortVersionString>0.8.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+      <link>https://github.com/dbcat-app/dbcat/releases/tag/v0.8.0</link>
+      <enclosure url="https://dbcat-dl.forzens.com/DbCat-0.8.0-x86_64.dmg" type="application/octet-stream" sparkle:edSignature="bEkVFt3g2L/RdWRvxphz4gRGG6p3UmPuq9tZNG7KvyrDVO61nEaLjogXWBC1MacwQ90Cd5qc+3dHZBYSNGPEBw==" length="45969034"/>
+    </item>
+    <item>
       <title>DbCat 0.7.3 (Intel)</title>
       <pubDate>Sun, 25 Oct 2026 01:38:15 +0000</pubDate>
       <sparkle:version>964</sparkle:version>
       <sparkle:shortVersionString>0.7.3</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
       <link>https://github.com/dbcat-app/dbcat/releases/tag/v0.7.3</link>
-      <enclosure url="https://dbcat-dl.forzens.com/DbCat-0.7.3-x86_64.dmg" type="application/octet-stream" sparkle:edSignature="7x53QZapvlHbdRH4b0nl2hsE3RN0s8nHSaT49cBJeZx5UTW7w6KSoGoJEtD32ynq4qvHGsYmdSvceoRNKWpMBg==" length="45472625"/>
+      <enclosure url="https://github.com/dbcat-app/dbcat/releases/download/v0.7.3/DbCat-0.7.3-x86_64.dmg" type="application/octet-stream" sparkle:edSignature="7x53QZapvlHbdRH4b0nl2hsE3RN0s8nHSaT49cBJeZx5UTW7w6KSoGoJEtD32ynq4qvHGsYmdSvceoRNKWpMBg==" length="45472625"/>
     </item>
     <item>
       <title>DbCat 0.7.2 (Intel)</title>
