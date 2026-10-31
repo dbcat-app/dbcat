@@ -90,6 +90,21 @@
 - 🪟 **[Windows 版 (x64)](https://dbcat.forzens.com/download?os=windows&lang=zh)**
 - 历史版本与更新说明：[Releases](https://github.com/dbcat-app/dbcat/releases)
 
+或用命令行安装：
+
+```sh
+# macOS（Homebrew）
+brew install --cask dbcat-app/tap/dbcat
+
+# macOS（不用 Homebrew）
+curl -fsSL https://dbcat.forzens.com/install.sh | sh
+```
+
+```powershell
+# Windows（PowerShell）
+irm https://dbcat.forzens.com/install.ps1 | iex
+```
+
 > **平台说明**
 > - **macOS**：内置自动更新，有新版本时提示一键升级，并自动匹配你的 Mac 芯片。
 > - **Windows**：未签名 Beta 安装包；若弹出 SmartScreen 提示，点「更多信息」→「仍要运行」；内置自动更新（0.7.0 / 0.7.1 用户需从官网手动安装一次新版）。
