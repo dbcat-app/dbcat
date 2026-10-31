@@ -90,6 +90,21 @@ Supports macOS 12+ and Windows 10/11 (x64). macOS builds are notarized by Apple,
 - 🪟 **[Windows (x64)](https://dbcat.forzens.com/download?os=windows&lang=en)**
 - Previous versions and release notes: [Releases](https://github.com/dbcat-app/dbcat/releases)
 
+Or install from the command line:
+
+```sh
+# macOS with Homebrew
+brew install --cask dbcat-app/tap/dbcat
+
+# macOS without Homebrew
+curl -fsSL https://dbcat.forzens.com/install.sh | sh
+```
+
+```powershell
+# Windows (PowerShell)
+irm https://dbcat.forzens.com/install.ps1 | iex
+```
+
 > **Platform notes**
 > - **macOS**: built-in auto-update notifies you of new versions, upgrades in one click and picks the right build for your Mac's chip.
 > - **Windows**: the installer is an unsigned beta. If SmartScreen appears, click "More info" → "Run anyway". It also updates itself (users on 0.7.0 or 0.7.1 need to install a newer version from the website once).
