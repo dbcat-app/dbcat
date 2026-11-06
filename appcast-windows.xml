@@ -4,13 +4,22 @@
     <title>DbCat (Windows)</title>
     <!-- ITEMS -->
     <item>
+      <title>DbCat 0.8.6 (Windows x64)</title>
+      <pubDate>Fri, 06 Nov 2026 02:41:34 +0000</pubDate>
+      <sparkle:version>0.8.6</sparkle:version>
+      <sparkle:shortVersionString>0.8.6</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>10.0</sparkle:minimumSystemVersion>
+      <link>https://github.com/dbcat-app/dbcat/releases/tag/v0.8.6</link>
+      <enclosure url="https://dbcat-dl.forzens.com/DbCat-0.8.6-x64-setup.exe" sparkle:os="windows-x64" sparkle:installerArguments="/SILENT /SP- /RELAUNCH=1" type="application/octet-stream" sparkle:edSignature="xFZ0dmP+f+/lINd1qO5M6MdTtmi9h7zszZLqeIwWQ63WcoefpPRy6J1pIHTb67freAouDFwze5oPwv8rGrp8Dw==" length="29480576"/>
+    </item>
+    <item>
       <title>DbCat 0.8.5 (Windows x64)</title>
       <pubDate>Wed, 04 Nov 2026 07:53:31 +0000</pubDate>
       <sparkle:version>0.8.5</sparkle:version>
       <sparkle:shortVersionString>0.8.5</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>10.0</sparkle:minimumSystemVersion>
       <link>https://github.com/dbcat-app/dbcat/releases/tag/v0.8.5</link>
-      <enclosure url="https://dbcat-dl.forzens.com/DbCat-0.8.5-x64-setup.exe" sparkle:os="windows-x64" sparkle:installerArguments="/SILENT /SP- /RELAUNCH=1" type="application/octet-stream" sparkle:edSignature="YGNLm3htqe/872fDnCNXmX+IST6MEQwKW+StmOIOdonmItFc7jZKJdkbtgRrySk2FISQtHdchF3VHgycVlPDDg==" length="29168223"/>
+      <enclosure url="https://github.com/dbcat-app/dbcat/releases/download/v0.8.5/DbCat-0.8.5-x64-setup.exe" sparkle:os="windows-x64" sparkle:installerArguments="/SILENT /SP- /RELAUNCH=1" type="application/octet-stream" sparkle:edSignature="YGNLm3htqe/872fDnCNXmX+IST6MEQwKW+StmOIOdonmItFc7jZKJdkbtgRrySk2FISQtHdchF3VHgycVlPDDg==" length="29168223"/>
     </item>
     <item>
       <title>DbCat 0.8.4 (Windows x64)</title>
