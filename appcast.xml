@@ -4,6 +4,25 @@
     <title>DbCat</title>
     <!-- ITEMS -->
     <item>
+      <title>DbCat 0.9.0 (Apple Silicon)</title>
+      <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+      <pubDate>Fri, 20 Nov 2026 14:45:51 +0000</pubDate>
+      <sparkle:version>2061</sparkle:version>
+      <sparkle:shortVersionString>0.9.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+      <link>https://github.com/dbcat-app/dbcat/releases/tag/v0.9.0</link>
+      <enclosure url="https://dbcat-dl.forzens.com/DbCat-0.9.0-arm64.dmg" type="application/octet-stream" sparkle:edSignature="pEwTrpsImr/RXjrB2D7zZGU5hHagWc7YOcGExD+0FeVz6YH988j+Q7D1MJXeQVk2qShQuqHvTDJ3OtSlmTpzDQ==" length="45398595"/>
+    </item>
+    <item>
+      <title>DbCat 0.9.0 (Intel)</title>
+      <pubDate>Fri, 20 Nov 2026 14:45:53 +0000</pubDate>
+      <sparkle:version>2061</sparkle:version>
+      <sparkle:shortVersionString>0.9.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+      <link>https://github.com/dbcat-app/dbcat/releases/tag/v0.9.0</link>
+      <enclosure url="https://dbcat-dl.forzens.com/DbCat-0.9.0-x86_64.dmg" type="application/octet-stream" sparkle:edSignature="WbAb6rr0957QYvTuKf0L9CK7wSKqSnLiKKCk5m321p3bUf+UpKwubulelK45xY7+H0ZcKfFu1R6C0PIlMvx0Bg==" length="49908803"/>
+    </item>
+    <item>
       <title>DbCat 0.8.9 (Apple Silicon)</title>
       <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
       <pubDate>Tue, 17 Nov 2026 07:51:35 +0000</pubDate>
@@ -11,7 +30,7 @@
       <sparkle:shortVersionString>0.8.9</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
       <link>https://github.com/dbcat-app/dbcat/releases/tag/v0.8.9</link>
-      <enclosure url="https://dbcat-dl.forzens.com/DbCat-0.8.9-arm64.dmg" type="application/octet-stream" sparkle:edSignature="G3tBFNMinI/EWXaujnYoxehhi7U4ZVitD9X5CWdFSiGZMNf8dyUEzbU93AcmXvLpPqHPyYa4x5AaLpQ1RG4WBw==" length="44804675"/>
+      <enclosure url="https://github.com/dbcat-app/dbcat/releases/download/v0.8.9/DbCat-0.8.9-arm64.dmg" type="application/octet-stream" sparkle:edSignature="G3tBFNMinI/EWXaujnYoxehhi7U4ZVitD9X5CWdFSiGZMNf8dyUEzbU93AcmXvLpPqHPyYa4x5AaLpQ1RG4WBw==" length="44804675"/>
     </item>
     <item>
       <title>DbCat 0.8.9 (Intel)</title>
@@ -20,7 +39,7 @@
       <sparkle:shortVersionString>0.8.9</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
       <link>https://github.com/dbcat-app/dbcat/releases/tag/v0.8.9</link>
-      <enclosure url="https://dbcat-dl.forzens.com/DbCat-0.8.9-x86_64.dmg" type="application/octet-stream" sparkle:edSignature="Qx6ps2iGE4IjRpgnxt31KFCoOdFHGb8cdf4SLGYV1NUBoDzTAwAsJygMn8jdz9De/3ilYtoxFxe6e4vJ3VQtDg==" length="49236035"/>
+      <enclosure url="https://github.com/dbcat-app/dbcat/releases/download/v0.8.9/DbCat-0.8.9-x86_64.dmg" type="application/octet-stream" sparkle:edSignature="Qx6ps2iGE4IjRpgnxt31KFCoOdFHGb8cdf4SLGYV1NUBoDzTAwAsJygMn8jdz9De/3ilYtoxFxe6e4vJ3VQtDg==" length="49236035"/>
     </item>
     <item>
       <title>DbCat 0.8.8 (Apple Silicon)</title>
